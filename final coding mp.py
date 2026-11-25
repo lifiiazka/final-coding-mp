@@ -1,8 +1,7 @@
-mport csv
+import csv
 import os
 
 nama_file = "gym_members_exercise_preview_25_baris.csv"
-
 
 
 def baca_dataset():
@@ -29,7 +28,6 @@ def baca_dataset():
     except (ValueError, KeyError):
         print("Terdapat kesalahan pada format dataset.")
         return []
-
 
 
 def validasi_data(data):
@@ -89,7 +87,6 @@ def validasi_data(data):
     return data_valid
 
 
-
 def tampilkan_data(data):
     print("\nSELURUH DATASET ANGGOTA GYM")
     print("=" * 150)
@@ -109,7 +106,6 @@ def tampilkan_data(data):
 
     print("=" * 150)
     print("Seluruh dataset berhasil ditampilkan.")
-
 
 
 def input_data_pengguna():
@@ -175,7 +171,6 @@ def input_data_pengguna():
         return None
 
 
-
 def hitung_bmi(pengguna):
     if pengguna is None:
         return None
@@ -202,7 +197,6 @@ def hitung_bmi(pengguna):
         "bmi": bmi,
         "kategori_bmi": kategori
     }
-
 
 
 def analisis_kalori(data, pengguna):
@@ -263,7 +257,6 @@ def analisis_kalori(data, pengguna):
     }
 
 
-
 def rekomendasi_set_aktivitas(jenis, tujuan):
 
     if jenis == "Yoga":
@@ -299,7 +292,6 @@ def rekomendasi_set_aktivitas(jenis, tujuan):
             return "3-4 set, 8-12 repetisi"
 
     return "Belum ada rekomendasi untuk jenis olahraga ini"
-
 
 
 def analisis_aktivitas(data, pengguna):
@@ -461,7 +453,6 @@ def analisis_aktivitas(data, pengguna):
     }
 
 
-
 def rekomendasi_kebugaran(pengguna, hasil_bmi, hasil_aktivitas):
 
     if (
@@ -535,7 +526,6 @@ def rekomendasi_kebugaran(pengguna, hasil_bmi, hasil_aktivitas):
         )
 
     return rekomendasi
-
 
 
 def tampilkan_laporan(
@@ -620,7 +610,6 @@ def tampilkan_laporan(
     return laporan
 
 
-
 def simpan_hasil(laporan):
     if laporan is None:
         print("Laporan belum tersedia.")
@@ -642,7 +631,6 @@ def simpan_hasil(laporan):
         penulis.writerow(laporan)
 
     print("Laporan berhasil disimpan ke", nama_output)
-
 
 
 def menu_utama():
@@ -778,7 +766,6 @@ def menu_utama():
 
         else:
             print("Pilihan tidak valid. Silakan pilih menu 1-9.")
-
 
 
 menu_utama()
