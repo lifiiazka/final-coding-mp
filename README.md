@@ -1,4 +1,8 @@
-Aplikasi CLI (Command Line Interface) berbasis Python untuk membantu menganalisis data anggota gym, menghitung Indeks Massa Tubuh (BMI) dan kebutuhan kalori harian, serta memberikan rekomendasi jenis dan porsi latihan kebugaran berdasarkan profil pengguna dan dataset.
+MINI PROJECT PEMROGRAMAN KOMPUTER 2A
+
+Program Perencanaan Kebugaran Tubuh Berdasarkan Kebutuhan Kalori, Aktivitas Fisik Menggunakan Python Berbasis Command Line Interface
+
+yaitu Aplikasi CLI (Command Line Interface) berbasis Python untuk membantu menganalisis data anggota gym, menghitung Indeks Massa Tubuh (BMI) dan kebutuhan kalori harian, serta memberikan rekomendasi jenis dan porsi latihan kebugaran berdasarkan profil pengguna dan dataset.
 
 Disusun oleh Kelompok Mini Projek 2A
 
